@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Užduotis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--1 užduotis-->
+    <h1 class="display">1. Paspaudus ant mygtuko, puslapyje esantis div atsiranda/ pranyksta</h1>
+    <button type="button" class="button 1" onclick= "paspausti()">paspausti</button>
+    <div class="square" id="square"></div>
+
+    <!--3 užduotis-->
+
+    <section>
+        <h1 class="display">2. Turit vieną div, su aukščiu,pločiu ir spalva bei 4 mygtukus, su kuriais galit valdyt sukurto div savybes: plotis, aukstis, centravimas ir pozicija</h1>
+        <button type="button" class="button 1" onclick="width1()" id="square1">plotis</button>
+        <button type="button" class="button 2" onclick="height1()" id="square1">aukštis</button>
+        <button type="button" class="button 3" onclick="center1()" id="square1">centruoti</button>
+        <button type="button" class="button 4" onclick="BackToPosition1()" id="square1">grįžti</button>
+        <div class="square1" id="square1"></div>
+    </section>
+
+    <!--2 užduotis-->
+
+    <!--4 užduotis-->
+    <section class="header">
+        <h1 class="display">4. Bent 4 div elementai, pradžioje visi juodos spalvos, paspaudus bent ant vieno iš jų, yra pakeičiamos spalvos visiems. Spalvos generuojamos random.</h1>
+        <div class="row">
+            <div class="column" onclick="diffColor();" id="column1"><span id="change1">vienas</span></div>
+            <div class="column" onclick="diffColor();" id="column2"><span id="change2">du</span></div>
+            <div class="column" onclick="diffColor();" id="column3"><span id="change3">trys</span></div>
+            <div class="column" onclick="diffColor();" id="column4"><span id="change4">keturi</span></div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--<script src="jquery-3.6.0.js"></script>-->
+    <script src="script.js"></script>
+</body>
+</html>

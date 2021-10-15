@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 200px;
+}
+/*1. Paspaudus ant mygtuko, puslapyje esantis div atsiranda/ pranyksta*/
+.square{
+    display: none;
+    position: relative;
+    background-color: grey;
+    border-radius: 1%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px, 0px;
+}
+
+/**/
+
+.square1{
+    position: relative;
+    background-color: grey;
+    border-radius: 1%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px, 0px;
+}
+
+/*4. Bent 4 div elementai, pradžioje visi juodos spalvos, paspaudus bent ant vieno iš jų, yra pakeičiamos spalvos visiems. Spalvos generuojamos random.*/
+.column {
+    background-color: black;
+    border: 1px solid blanchedalmond;
+    text-align: center;
+    padding: 1%;
+    border-radius: 5px;
+}
